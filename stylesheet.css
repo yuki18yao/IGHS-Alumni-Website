@@ -1,0 +1,360 @@
+html{
+  height:100%;
+  width:100%;
+}
+
+body{
+  margin:0;
+  padding:0;
+  height:auto;
+  width:100%;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header{
+  width:100%;
+  height:100px;
+  position:fixed;
+  top:0px;
+  z-index:20;
+  background-color: white;
+}
+
+.header-left{
+  float:left;
+  width:50px;
+  height:50px;
+  position:absolute;
+  top:10px;
+  left:50px;
+}
+
+.header-left img{
+  width:80px;
+  height:80px;
+  margin:0;
+  padding:0;
+}
+
+.header-right{
+  float:right;
+  width:80%;
+  position:absolute;
+  top:32px;
+  right:100px;
+}
+
+.header-menu{
+  float:right;
+}
+
+.header-menu a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+.header-menu a:hover{
+  color:#0297DC;
+}
+
+.header-menu li{
+  float:left;
+  margin-left:70px;
+}
+
+.facebook-logo img{
+  width:25px;
+  height:25px;
+}
+
+.contact-btn{
+  width: 190px;
+  height: 43px;
+  border: 2px solid ;
+  border-image:  linear-gradient(90deg, rgb(8, 213, 249), rgb(7, 32, 134));
+  border-image-slice: 1;
+  transition: all 0.7s;
+  position: relative;
+  top:-10px;
+
+}
+
+.contact-btn a{
+  color:black;
+  font-size:15px;
+  display:block;
+  width: 190px;
+  height: 43px;
+  line-height: 40px;
+  transition: all 0.7s;
+  display:block;
+  text-align: center;
+
+}
+
+.contact-btn:hover{
+  background: linear-gradient(90deg, rgb(8, 213, 249), rgb(7, 32, 134));
+}
+
+.contact-btn a:hover{
+  color:white;
+}
+
+main{
+  width:100%;
+  display: inline-block;
+  background-color: #F3F3F3;
+}
+
+.top-wrapper{
+  width:100%;
+  height:700px;
+  background-color: grey;
+}
+
+
+.container{
+  margin:0 auto;
+  width:70%;
+  height:100%;
+}
+
+.top-message{
+  text-align: center;
+  position: relative;
+  top:300px;
+}
+
+.top-message h1{
+  font-size:70px;
+  color:black;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.timeline-wrapper{
+  height:600px;
+  width:100%;
+  margin-top:80px;
+}
+
+.timeline-photo {
+  margin: 0 auto;
+  width:800px;
+  height:500px;
+  padding-top:50px;
+}
+
+.timeline-photo img{
+  width:800px;
+  height:500px;
+
+}
+
+.world-wrapper{
+  height:260px;
+  width:100%;
+  margin-top:80px;
+}
+
+.more{
+  float:right;
+  width:80px;
+  margin:0;
+  padding:0;
+}
+
+.more p{
+  font-size: 15px;
+  font-weight: bold;
+  margin:0;
+  padding:0;
+}
+
+.contents{
+  display:flex;
+  width:100%;
+  padding:0;
+  margin-top:30px;
+
+}
+
+.each-content{
+  flex:auto;
+  height:auto;
+  width:50%;
+  margin:20px;
+}
+
+
+.each-content img{
+  width:100%;
+  height:auto;
+}
+
+.notification-wrapper{
+  height:315px;
+  width:100%;
+  margin-top: 120px;
+}
+
+.sub-title{
+  font-size: 23px;
+  font-weight: bold;
+  border-bottom: 3px solid #093C97;
+  width:100px;
+  height:43px;
+}
+
+.each-notification{
+  width:100%;
+  height:80px;
+  display: flex;
+}
+
+.dates{
+  width: 20%;
+  height:100%;
+}
+
+.news-message{
+  width:80%;
+  height:100%;
+  font-weight:bold;
+  color:black;
+  text-decoration: none;
+}
+
+.activity-wrapper{
+  height:445px;
+  width:100%;
+  margin-top:120px;
+}
+
+.column{
+  width:100%;
+  height:auto;
+  display:flex;
+  margin-top: 14px;
+}
+
+.each-column{
+  width:25%;
+  padding:12px;
+  transition:0.3s;
+}
+
+.each-column:hover{
+  background-color: #FFFFFF;
+}
+
+.each-column img{
+  width:100%;
+  height:160px;
+}
+
+.column-tag{
+  color:rgb(10,47,140);
+  font-size:12px;
+  font-weight:bold;
+  margin:0;
+  padding:0;
+}
+
+.column-date{
+  float:right;
+  font-size:10px;
+  color:rgb(111,111,111);
+  margin:0;
+  padding:0;
+  position: relative;
+  top:-15px;
+}
+
+.column-message{
+  font-weight:bold;
+}
+
+.organizer-wrapper{
+  width:100%;
+  height:333px;
+  margin-top:80px;
+}
+
+.check-btn{
+  margin:0 auto;
+  width:500px;
+  height:150px;
+  position: relative;
+  top:60px;
+  border: 2px solid rgb(210,210,210);
+
+}
+
+.check-btn a{
+  text-align: center;
+  font-size:25px;
+  font-weight: bold;
+  width:100%;
+  height:100%;
+}
+
+.check-btn p{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  line-height: 145px;
+}
+
+
+.check-btn :hover{
+  border: 4px solid ;
+  border-image:  linear-gradient(90deg, rgb(8, 213, 249), rgb(7, 32, 134));
+  border-image-slice:1 ;
+}
+
+footer{
+  width:100%;
+  height:150px;
+  background-color:grey;
+}
+
+.footer-menu{
+  display:flex;
+  height:20px;
+  text-align: center;
+  width: 660px;
+  position: relative;
+  top: 65px;
+  margin: 0 auto;
+}
+
+.footer-menu a:hover{
+  color:white;
+}
+
+.footer-menu li{
+  padding-right:30px;
+}
+
+.copyright{
+  height:20px;
+  text-align: center;
+  margin: 0 auto;
+  font-size:10px;
+  position:relative;
+  top:90px;
+}
